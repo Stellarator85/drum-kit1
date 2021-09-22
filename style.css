@@ -1,0 +1,212 @@
+.Regular-background-html {
+  background-image: url(assets/images/background.jpg);
+  background-size: cover;
+  background-position: bottom center;
+
+  transition: all 7s ease;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.Light-background-html {
+  background-image: url(assets/images/background1.jpg);
+  background-size: cover;
+  background-position: bottom center;
+
+  transition: all 7s ease;
+  transition-property: all;
+  transition-duration: 1.4s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.Keys-container {
+  min-width: 1270px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1.5%;
+  align-items: center;
+  justify-content: center;
+  font-family: Courier;
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 0 0 0.5rem black;
+
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -khtml-user-select: none;
+}
+
+.Key-button {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -khtml-user-select: none;
+
+  width: 8.6%;
+  padding-top: 1.2rem;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 0.5rem black;
+  line-height: 70%;
+
+  border: 0.25rem solid black;
+  border-radius: 5%;
+
+  transition: all 0.07s ease;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 0.5rem black;
+
+  background-color: rgba(0, 0, 0, 0.4);
+  background-size: cover;
+}
+
+.Key-button-light {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -khtml-user-select: none;
+
+  width: 8.6%;
+  padding-top: 1.2rem;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 0.5rem black;
+  line-height: 70%;
+
+  border: 0.25rem solid black;
+  border-radius: 5%;
+
+  transition: all 0.07s ease;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 0.5rem black;
+
+  background-color: rgba(47, 74, 163, 0.4);
+  border: 0.25rem solid rgb(19, 70, 240);
+  background-size: cover;
+  
+}
+
+.Key-button:hover {
+  cursor: pointer;
+  opacity: 75%;
+  border: 0.25rem solid #e4cb0dd9;
+  border-radius: 5%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.Key-button-onclick {
+  padding-top: 1.2rem;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 0.5rem black;
+  line-height: 70%;
+
+  border: 0.25rem solid #ffc600;
+  border-radius: 5%;
+  box-shadow: 0 0 1rem #ffc600;
+
+  transform: scale(1.15);
+
+  transition: all 0.07s ease;
+  transition-property: all;
+  transition-duration: 0.07s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 0.5rem black;
+
+  background-color: rgba(0, 0, 0, 0.4);
+  background-size: cover;
+}
+
+.Key-button-onclick:hover {
+  opacity: 100%;
+  border-color: #ffc600;
+}
+
+.Key-button-sound-text {
+  font-family: Arial;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  color: #ffc600;
+}
+
+.Background-button-dark-mode {
+  font-family: "Heebo", sans-serif;
+  font-style: normal;
+  width: 12%;
+  color: #000;
+  border: solid 0px beige;
+  border-radius: 4px;
+  align-self: center;
+  text-align: center;
+  margin-bottom: -35%;
+  position: absolute;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  height: 6.5%;
+  background-color: beige;
+}
+
+.Background-button-light-mode {
+  font-family: "Heebo", sans-serif;
+  font-style: normal;
+  width: 12%;
+  color: beige;
+  border: solid 0px rgb(46, 46, 46);
+  border-radius: 4px;
+  align-self: center;
+  text-align: center;
+  margin-bottom: -35%;
+  position: absolute;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  height: 6.5%;
+  background-color: rgb(46, 46, 46);
+}
+
+.Background-button-dark-mode:hover {
+  cursor: pointer;
+}
+
+.Background-button-light-mode:hover {
+  cursor: pointer;
+}
