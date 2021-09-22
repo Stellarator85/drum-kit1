@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" id="html" class="Regular-background-html">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS Drum Kit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="Keys-container">
+      <div class="Key-button" id="aButton">
+        A<br /><span class="Key-button-sound-text">clap</span>
+      </div>
+      <div class="Key-button" id="sButton">
+        S<br /><span class="Key-button-sound-text">hihat</span>
+      </div>
+      <div class="Key-button" id="dButton">
+        D<br /><span class="Key-button-sound-text">kick</span>
+      </div>
+      <div class="Key-button" id="fButton">
+        F<br /><span class="Key-button-sound-text">openhat</span>
+      </div>
+      <div class="Key-button" id="gButton">
+        G<br /><span class="Key-button-sound-text">boom</span>
+      </div>
+      <div class="Key-button" id="hButton">
+        H<br /><span class="Key-button-sound-text">ride</span>
+      </div>
+      <div class="Key-button" id="jButton">
+        J<br /><span class="Key-button-sound-text">snare</span>
+      </div>
+      <div class="Key-button" id="kButton">
+        K<br /><span class="Key-button-sound-text">tom</span>
+      </div>
+      <div class="Key-button" id="lButton">
+        L<br /><span class="Key-button-sound-text">tink</span>
+      </div>
+    </div>
+
+    <button class="Background-button-dark-mode" id="background-switch-button">
+      Light mode
+    </button>
+
+    <audio id="clapA" src="assets/sounds/clap.wav"></audio>
+    <audio id="hihatS" src="assets/sounds/hihat.wav"></audio>
+    <audio id="kickD" src="assets/sounds/kick.wav"></audio>
+    <audio id="openhatF" src="assets/sounds/openhat.wav"></audio>
+    <audio id="boomG" data-key="71" src="assets/sounds/boom.wav"></audio>
+    <audio id="rideH" src="assets/sounds/ride.wav"></audio>
+    <audio id="snareJ" src="assets/sounds/snare.wav"></audio>
+    <audio id="tomK" src="assets/sounds/tom.wav"></audio>
+    <audio id="tinkL" src="assets/sounds/tink.wav"></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
